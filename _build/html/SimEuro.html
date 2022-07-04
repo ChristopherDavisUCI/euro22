@@ -1,0 +1,1049 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulation &#8212; UEFA Women&#39;s Euro 2022</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=62ba249389abaaa9ffc34bf36a076bdc1d65ee18" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=f31d14ad54b65d19161ba51d4ffff3a77ae00456"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Group odds from betting lines" href="GetGroupOdds.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/uefa.jpeg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">UEFA Women's Euro 2022</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    UEFA Women’s Euro 2022
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="PowerRatings.html">
+   Power ratings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="GetGroupOdds.html">
+   Group odds from betting lines
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Simulation
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/SimEuro.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FSimEuro.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/SimEuro.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#group-stage">
+   Group stage
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#simulate-match">
+   Simulate match
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#knockout-stage">
+   Knockout stage
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#full-simulation">
+   Full simulation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#convert-to-odds">
+   Convert to odds
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Simulation</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#group-stage">
+   Group stage
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#simulate-match">
+   Simulate match
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#knockout-stage">
+   Knockout stage
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#full-simulation">
+   Full simulation
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#convert-to-odds">
+   Convert to odds
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="simulation">
+<h1>Simulation<a class="headerlink" href="#simulation" title="Permalink to this headline">#</a></h1>
+<p>We will use the group odds (which have nothing to do with our power ratings… they are implied from betting odds) to simulate the outcome of the group stage, and then we will use the power ratings to simulate the knockout stage.</p>
+<div class="section" id="group-stage">
+<h2>Group stage<a class="headerlink" href="#group-stage" title="Permalink to this headline">#</a></h2>
+<p>These outcomes are based on the implied odds from the betting odds, as we computed <a class="reference internal" href="GetGroupOdds.html"><span class="doc std std-doc">here</span></a>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">default_rng</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_odds</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/gp_odds.csv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_odds</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Group</th>
+      <th>Team</th>
+      <th>Odds</th>
+      <th>Prob</th>
+      <th>Implied</th>
+      <th>Site</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Group A</td>
+      <td>England</td>
+      <td>-250</td>
+      <td>0.714286</td>
+      <td>0.657555</td>
+      <td>Bet Online</td>
+      <td>2022-07-03</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Group A</td>
+      <td>Norway</td>
+      <td>250</td>
+      <td>0.285714</td>
+      <td>0.263022</td>
+      <td>Bet Online</td>
+      <td>2022-07-03</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Group A</td>
+      <td>Austria</td>
+      <td>1400</td>
+      <td>0.066667</td>
+      <td>0.061372</td>
+      <td>Bet Online</td>
+      <td>2022-07-03</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Group A</td>
+      <td>Northern Ireland</td>
+      <td>5000</td>
+      <td>0.019608</td>
+      <td>0.018051</td>
+      <td>Bet Online</td>
+      <td>2022-07-03</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<p>Here is an example of one simulation.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">gp_top2</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">gp</span><span class="p">,</span> <span class="n">df_sub</span> <span class="ow">in</span> <span class="n">df_odds</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;Group&quot;</span><span class="p">):</span>
+    <span class="n">gp_top2</span><span class="p">[</span><span class="n">gp</span><span class="p">]</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">df_sub</span><span class="p">[</span><span class="s2">&quot;Team&quot;</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">df_sub</span><span class="p">[</span><span class="s2">&quot;Implied&quot;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">gp_top2</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;Group A&#39;: array([&#39;Norway&#39;, &#39;England&#39;], dtype=object),
+ &#39;Group B&#39;: array([&#39;Germany&#39;, &#39;Spain&#39;], dtype=object),
+ &#39;Group C&#39;: array([&#39;Sweden&#39;, &#39;Netherlands&#39;], dtype=object),
+ &#39;Group D&#39;: array([&#39;France&#39;, &#39;Iceland&#39;], dtype=object)}
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="simulate-match">
+<h2>Simulate match<a class="headerlink" href="#simulate-match" title="Permalink to this headline">#</a></h2>
+<p>Once we know the simulated outcomes of the group stage, we will simulate individual matches as we progress through the knockout stage.  To simulate the group stage, we only used the betting odds.  For the individual matches, we will use a completely different strategy, and only use the power ratings computed in the <a class="reference internal" href="PowerRatings.html"><span class="doc std std-doc">power ratings section</span></a>.</p>
+<p>For each pair of teams, we will use the method from the <a class="reference internal" href="PowerRatings.html#example-computation"><span class="std std-ref">Example computation</span></a> section to estimate the probability that Team 1 defeats Team 2.  (For now, we will just ignore draws.)</p>
+<p>In matches involving England, we will include the home-field advantage.  We will not use home-field advantage for any of the other teams.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ratings</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/ratings.csv&quot;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">squeeze</span><span class="p">(</span><span class="s2">&quot;columns&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Here are the five highest ranked teams.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ratings</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>England    1.818341
+Spain      1.805690
+Belgium    1.564538
+Sweden     1.486001
+Italy      1.432286
+Name: 0, dtype: float64
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">match_probs</span> <span class="o">=</span> <span class="p">{}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">teams</span> <span class="o">=</span> <span class="n">df_odds</span><span class="p">[</span><span class="s2">&quot;Team&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">combinations</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">match_dict</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="n">b</span> <span class="o">=</span> <span class="n">ratings</span><span class="p">[</span><span class="s2">&quot;const&quot;</span><span class="p">]</span>
+<span class="n">hfa</span> <span class="o">=</span> <span class="n">ratings</span><span class="p">[</span><span class="s2">&quot;HFA&quot;</span><span class="p">]</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="mi">7</span>
+
+<span class="k">for</span> <span class="n">pair</span> <span class="ow">in</span> <span class="n">combinations</span><span class="p">(</span><span class="n">teams</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>
+    <span class="n">r0</span> <span class="o">=</span> <span class="n">ratings</span><span class="p">[</span><span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+    <span class="n">r1</span> <span class="o">=</span> <span class="n">ratings</span><span class="p">[</span><span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span>
+    <span class="n">h0</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">h1</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">if</span> <span class="n">pair</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;England&quot;</span><span class="p">:</span>
+        <span class="n">h0</span> <span class="o">=</span> <span class="n">hfa</span>
+    <span class="k">elif</span> <span class="n">pair</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;England&quot;</span><span class="p">:</span>
+        <span class="n">h1</span> <span class="o">=</span> <span class="n">hfa</span>
+    <span class="n">lam</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">b</span><span class="o">+</span><span class="n">r0</span><span class="o">-</span><span class="n">r1</span><span class="o">+</span><span class="n">h0</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">b</span><span class="o">+</span><span class="n">r1</span><span class="o">-</span><span class="n">r0</span><span class="o">+</span><span class="n">h1</span><span class="p">))</span>
+    <span class="n">scores</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+    <span class="n">wins</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">count_nonzero</span><span class="p">(</span><span class="n">scores</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">scores</span><span class="p">[:,</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">losses</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">count_nonzero</span><span class="p">(</span><span class="n">scores</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">scores</span><span class="p">[:,</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">match_dict</span><span class="p">[</span><span class="n">pair</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">wins</span><span class="o">/</span><span class="p">(</span><span class="n">wins</span><span class="o">+</span><span class="n">losses</span><span class="p">),</span> <span class="n">losses</span><span class="o">/</span><span class="p">(</span><span class="n">wins</span><span class="o">+</span><span class="n">losses</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>As a reality check, let’s check the probability that Denmark beats Austria.  In that order, the tuple doesn’t appear.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">match_dict</span><span class="p">[(</span><span class="s2">&quot;Denmark&quot;</span><span class="p">,</span> <span class="s2">&quot;Austria&quot;</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">KeyError</span><span class="g g-Whitespace">                                  </span>Traceback (most recent call last)
+<span class="nn">Input In [91],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">match_dict</span><span class="p">[(</span><span class="s2">&quot;Denmark&quot;</span><span class="p">,</span> <span class="s2">&quot;Austria&quot;</span><span class="p">)]</span>
+
+<span class="ne">KeyError</span>: (&#39;Denmark&#39;, &#39;Austria&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<p>So we use the opposite order.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">match_dict</span><span class="p">[(</span><span class="s2">&quot;Austria&quot;</span><span class="p">,</span> <span class="s2">&quot;Denmark&quot;</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(0.8036677766866809, 0.19633222331331915)
+</pre></div>
+</div>
+</div>
+</div>
+<p>The above is saying that Denmark has about a 20% chance of beating Austria.  (Because of the randomness in these simulations, the results might change when this is run again.)</p>
+<p>For convenience, we’ll make a new dictionary <code class="docutils literal notranslate"><span class="pre">full_matches</span></code> that also contains each “reversed” tuple.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">full_matches</span> <span class="o">=</span> <span class="n">match_dict</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">tup</span> <span class="ow">in</span> <span class="n">match_dict</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">match_dict</span><span class="p">[</span><span class="n">tup</span><span class="p">]</span>
+    <span class="n">full_matches</span><span class="p">[(</span><span class="n">tup</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">tup</span><span class="p">[</span><span class="mi">0</span><span class="p">])]</span> <span class="o">=</span> <span class="p">(</span><span class="n">res</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">res</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">full_matches</span><span class="p">[(</span><span class="s2">&quot;Denmark&quot;</span><span class="p">,</span> <span class="s2">&quot;Austria&quot;</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(0.19633222331331915, 0.8036677766866809)
+</pre></div>
+</div>
+</div>
+</div>
+<p>We’ll save the results so we don’t need to make the computation again.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">full_matches</span><span class="p">)</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;data/match_probs.csv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="knockout-stage">
+<h2>Knockout stage<a class="headerlink" href="#knockout-stage" title="Permalink to this headline">#</a></h2>
+<p>Here is the tournament bracket, taken from <a class="reference external" href="https://en.wikipedia.org/wiki/UEFA_Women%27s_Euro_2022#Knockout_stage">Wikipedia</a>.</p>
+<p><img alt="Tournament bracket" src="_images/knockout.png" /></p>
+<p>Let’s see how to feed the results of the group stage into this sort of bracket.  Since there are only 8 teams, we’ll just specify the matchups manually.  For example, “C0” refers to the winner of Group C and “C1” refers to the runner-up in Group C.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bracket_abbr</span> <span class="o">=</span> <span class="s2">&quot;C0D1A0B1D0C1B0A1&quot;</span>
+<span class="n">bracket_str</span> <span class="o">=</span> <span class="p">[</span><span class="n">bracket_abbr</span><span class="p">[</span><span class="n">i</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">2</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">bracket_abbr</span><span class="p">),</span><span class="mi">2</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bracket</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;England&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">gp_top2</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;Group A&#39;: array([&#39;Norway&#39;, &#39;England&#39;], dtype=object),
+ &#39;Group B&#39;: array([&#39;Spain&#39;, &#39;Germany&#39;], dtype=object),
+ &#39;Group C&#39;: array([&#39;Netherlands&#39;, &#39;Sweden&#39;], dtype=object),
+ &#39;Group D&#39;: array([&#39;Italy&#39;, &#39;France&#39;], dtype=object)}
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># s is a length-2 string like &quot;C0&quot;</span>
+<span class="k">def</span> <span class="nf">get_team</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">gp_top2</span><span class="p">):</span>
+    <span class="n">letter</span><span class="p">,</span> <span class="n">place</span> <span class="o">=</span> <span class="n">s</span>
+    <span class="k">return</span> <span class="n">gp_top2</span><span class="p">[</span><span class="sa">f</span><span class="s2">&quot;Group </span><span class="si">{</span><span class="n">letter</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">][</span><span class="nb">int</span><span class="p">(</span><span class="n">place</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">get_team</span><span class="p">(</span><span class="s2">&quot;C0&quot;</span><span class="p">,</span> <span class="n">gp_top2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Netherlands&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bracket</span> <span class="o">=</span> <span class="p">[</span><span class="n">get_team</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">gp_top2</span><span class="p">)</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">bracket_str</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bracket</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Netherlands&#39;,
+ &#39;France&#39;,
+ &#39;Norway&#39;,
+ &#39;Germany&#39;,
+ &#39;Italy&#39;,
+ &#39;Sweden&#39;,
+ &#39;Spain&#39;,
+ &#39;England&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can get the probabilities associated to one of these matches using our <code class="docutils literal notranslate"><span class="pre">full_matches</span></code> dictionary from above.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">match</span> <span class="o">=</span> <span class="p">(</span><span class="n">bracket</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">bracket</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">match</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(&#39;Netherlands&#39;, &#39;France&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">full_matches</span><span class="p">[</span><span class="n">match</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(0.7225502700776059, 0.27744972992239414)
+</pre></div>
+</div>
+</div>
+</div>
+<p>If we want to simulate this match 10 times using those probabilities, we can use <code class="docutils literal notranslate"><span class="pre">rng.choice</span></code>.  (In our overall simulation, we will only simulate such a map once per bracket.  This example is just to show how the weights work.)</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rng</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">match</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">full_matches</span><span class="p">[</span><span class="n">match</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([&#39;Netherlands&#39;, &#39;Netherlands&#39;, &#39;Netherlands&#39;, &#39;France&#39;,
+       &#39;Netherlands&#39;, &#39;Netherlands&#39;, &#39;France&#39;, &#39;Netherlands&#39;,
+       &#39;Netherlands&#39;, &#39;Netherlands&#39;], dtype=&#39;&lt;U11&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<p>Here is an example of finding the winner after the knockout stage.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">bracket</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+    <span class="n">temp_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">bracket</span><span class="p">),</span><span class="mi">2</span><span class="p">):</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="p">(</span><span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">winner</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">match</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">full_matches</span><span class="p">[</span><span class="n">match</span><span class="p">])</span>
+        <span class="n">temp_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">winner</span><span class="p">)</span>
+    <span class="n">bracket</span> <span class="o">=</span> <span class="n">temp_list</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The winner is </span><span class="si">{</span><span class="n">bracket</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The winner is Italy
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="full-simulation">
+<h2>Full simulation<a class="headerlink" href="#full-simulation" title="Permalink to this headline">#</a></h2>
+<p>Here we put together the two steps above.  First we run the simulation 1 time and time how long it takes.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%%time</span>
+
+<span class="n">gp_top2</span> <span class="o">=</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">gp</span><span class="p">,</span> <span class="n">df_sub</span> <span class="ow">in</span> <span class="n">df_odds</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;Group&quot;</span><span class="p">):</span>
+    <span class="n">gp_top2</span><span class="p">[</span><span class="n">gp</span><span class="p">]</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">df_sub</span><span class="p">[</span><span class="s2">&quot;Team&quot;</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">df_sub</span><span class="p">[</span><span class="s2">&quot;Implied&quot;</span><span class="p">])</span>
+    
+<span class="n">bracket</span> <span class="o">=</span> <span class="p">[</span><span class="n">get_team</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">gp_top2</span><span class="p">)</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">bracket_str</span><span class="p">]</span>
+
+<span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">bracket</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+    <span class="n">temp_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">bracket</span><span class="p">),</span><span class="mi">2</span><span class="p">):</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="p">(</span><span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">winner</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">match</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">full_matches</span><span class="p">[</span><span class="n">match</span><span class="p">])</span>
+        <span class="n">temp_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">winner</span><span class="p">)</span>
+    <span class="n">bracket</span> <span class="o">=</span> <span class="n">temp_list</span>
+    
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The winner is </span><span class="si">{</span><span class="n">bracket</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The winner is England
+CPU times: user 6.67 ms, sys: 1.94 ms, total: 8.6 ms
+Wall time: 6.76 ms
+</pre></div>
+</div>
+</div>
+</div>
+<p>Here we simulate the tournament two million times.  We have repeated this a few times, and the results come out very similar each time, so there is probably not much to be gained by running the simulation more times.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="mi">10</span><span class="o">**</span><span class="mi">6</span>
+
+<span class="n">results_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">team</span><span class="p">:</span><span class="mi">0</span> <span class="k">for</span> <span class="n">team</span> <span class="ow">in</span> <span class="n">teams</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">gp_top2</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="k">for</span> <span class="n">gp</span><span class="p">,</span> <span class="n">df_sub</span> <span class="ow">in</span> <span class="n">df_odds</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;Group&quot;</span><span class="p">):</span>
+        <span class="n">gp_top2</span><span class="p">[</span><span class="n">gp</span><span class="p">]</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">df_sub</span><span class="p">[</span><span class="s2">&quot;Team&quot;</span><span class="p">],</span> <span class="n">size</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">df_sub</span><span class="p">[</span><span class="s2">&quot;Implied&quot;</span><span class="p">])</span>
+
+    <span class="n">bracket</span> <span class="o">=</span> <span class="p">[</span><span class="n">get_team</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">gp_top2</span><span class="p">)</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">bracket_str</span><span class="p">]</span>
+
+    <span class="k">while</span> <span class="nb">len</span><span class="p">(</span><span class="n">bracket</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">temp_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">bracket</span><span class="p">),</span><span class="mi">2</span><span class="p">):</span>
+            <span class="n">match</span> <span class="o">=</span> <span class="p">(</span><span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">bracket</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">winner</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">match</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="n">full_matches</span><span class="p">[</span><span class="n">match</span><span class="p">])</span>
+            <span class="n">temp_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">winner</span><span class="p">)</span>
+        <span class="n">bracket</span> <span class="o">=</span> <span class="n">temp_list</span>
+        
+    <span class="n">results_dict</span><span class="p">[</span><span class="n">bracket</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
+    
+<span class="c1"># sorting by probability</span>
+<span class="n">prob_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">team</span><span class="p">:</span> <span class="p">(</span><span class="n">win</span><span class="o">/</span><span class="n">n</span><span class="p">)</span> <span class="k">for</span> <span class="n">team</span><span class="p">,</span> <span class="n">win</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">results_dict</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">prob_dict</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;England&#39;: 0.510956,
+ &#39;Spain&#39;: 0.2541105,
+ &#39;Sweden&#39;: 0.074987,
+ &#39;Netherlands&#39;: 0.0500265,
+ &#39;Italy&#39;: 0.0331855,
+ &#39;Belgium&#39;: 0.0230885,
+ &#39;Norway&#39;: 0.0179235,
+ &#39;Germany&#39;: 0.011113,
+ &#39;Iceland&#39;: 0.0102955,
+ &#39;France&#39;: 0.0072075,
+ &#39;Austria&#39;: 0.00506,
+ &#39;Switzerland&#39;: 0.0018255,
+ &#39;Denmark&#39;: 0.000188,
+ &#39;Northern Ireland&#39;: 2.45e-05,
+ &#39;Finland&#39;: 8e-06,
+ &#39;Portugal&#39;: 5e-07}
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="convert-to-odds">
+<h2>Convert to odds<a class="headerlink" href="#convert-to-odds" title="Permalink to this headline">#</a></h2>
+<p>So that the numbers are easier to compare to betting odds, we display what would be fair odds according to the simulation for each team to win the tournament.</p>
+<p><strong>Warning</strong>.  The England odds are so different from the current (as of July 3rd) market odds, that our simulation is certainly over-estimating England’s chances.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">prob_to_odds</span><span class="p">(</span><span class="n">p</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">p</span> <span class="o">&lt;</span> <span class="mf">.000001</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span>
+    <span class="k">if</span> <span class="n">p</span> <span class="o">&gt;</span> <span class="mf">.999999</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span>
+    <span class="k">if</span> <span class="n">p</span> <span class="o">&gt;</span> <span class="mf">0.5</span><span class="p">:</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span class="n">p</span><span class="o">/</span><span class="p">(</span><span class="n">p</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="k">elif</span> <span class="n">p</span> <span class="o">&lt;=</span> <span class="mf">0.5</span><span class="p">:</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">100</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">p</span><span class="p">)</span><span class="o">/</span><span class="n">p</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;+</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">({</span><span class="n">team</span><span class="p">:</span><span class="n">prob_to_odds</span><span class="p">(</span><span class="n">prob</span><span class="p">)</span> <span class="k">for</span> <span class="n">team</span><span class="p">,</span><span class="n">prob</span> <span class="ow">in</span> <span class="n">prob_dict</span><span class="o">.</span><span class="n">items</span><span class="p">()})</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>England                  -104
+Spain                    +294
+Sweden                  +1234
+Netherlands             +1899
+Italy                   +2913
+Belgium                 +4231
+Norway                  +5479
+Germany                 +8898
+Iceland                 +9613
+France                 +13774
+Austria                +19663
+Switzerland            +54680
+Denmark               +531815
+Northern Ireland     +4081533
+Finland             +12499900
+Portugal                  NaN
+dtype: object
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="GetGroupOdds.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Group odds from betting lines</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Christopher Davis<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
