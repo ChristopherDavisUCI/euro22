@@ -1,0 +1,389 @@
+date,home_team,away_team,home_score,away_score,tournament,home_odds,draw_odds,away_odds
+2019-08-29,Israel,Italy,2.0,3.0,UEFA Euro qualification,3000.0,1600.0,-2000.0
+2019-08-29,Lithuania,Croatia,1.0,2.0,UEFA Euro qualification,2150.0,900.0,-1000.0
+2019-08-29,Faroe Islands,Wales,0.0,6.0,UEFA Euro qualification,3300.0,1200.0,-1429.0
+2019-08-29,Denmark,Malta,8.0,0.0,UEFA Euro qualification,-10000.0,1825.0,4200.0
+2019-08-29,Iceland,Hungary,4.0,1.0,UEFA Euro qualification,-714.0,760.0,1625.0
+2019-08-30,Bosnia-Herzegovina,Georgia,7.0,1.0,UEFA Euro qualification,-526.0,620.0,1350.0
+2019-08-30,Scotland,Cyprus,8.0,0.0,UEFA Euro qualification,-10000.0,4000.0,4300.0
+2019-08-30,Kosovo,Turkey,2.0,0.0,UEFA Euro qualification,,,
+2019-08-30,Northern Ireland,Norway,0.0,6.0,UEFA Euro qualification,2400.0,1000.0,-1111.0
+2019-08-30,Estonia,Netherlands,0.0,7.0,UEFA Euro qualification,9000.0,2000.0,-5000.0
+2019-08-30,Moldova,Czech Republic,0.0,7.0,UEFA Euro qualification,6200.0,1700.0,-5000.0
+2019-08-30,Slovenia,Russia,0.0,1.0,UEFA Euro qualification,242.0,276.0,108.0
+2019-08-31,Germany,Montenegro,10.0,0.0,UEFA Euro qualification,,,
+2019-09-01,Kazakhstan,Serbia,0.0,3.0,UEFA Euro qualification,1400.0,450.0,-357.0
+2019-09-02,Albania,Finland,0.0,3.0,UEFA Euro qualification,950.0,480.0,-370.0
+2019-09-02,Iceland,Slovakia,1.0,0.0,UEFA Euro qualification,-714.0,790.0,2000.0
+2019-09-03,Netherlands,Turkey,3.0,0.0,UEFA Euro qualification,-3333.0,2500.0,10900.0
+2019-09-03,Russia,Estonia,4.0,0.0,UEFA Euro qualification,-3333.0,2300.0,12900.0
+2019-09-03,Republic of Ireland,Montenegro,2.0,0.0,UEFA Euro qualification,-3333.0,3300.0,6900.0
+2019-09-03,Belgium,Croatia,6.0,1.0,UEFA Euro qualification,-769.0,950.0,2700.0
+2019-09-03,Wales,Northern Ireland,2.0,2.0,UEFA Euro qualification,-476.0,643.0,2000.0
+2019-09-03,Belarus,Faroe Islands,6.0,0.0,UEFA Euro qualification,-2000.0,1575.0,4900.0
+2019-09-03,Israel,Denmark,0.0,3.0,UEFA Euro qualification,1700.0,970.0,-526.0
+2019-09-03,Switzerland,Lithuania,4.0,0.0,UEFA Euro qualification,-3333.0,2500.0,5900.0
+2019-09-03,Ukraine,Germany,0.0,8.0,UEFA Euro qualification,5500.0,2200.0,-2500.0
+2019-09-03,Georgia,Italy,0.0,1.0,UEFA Euro qualification,5300.0,3300.0,-3333.0
+2019-09-03,Latvia,Sweden,1.0,4.0,UEFA Euro qualification,6400.0,2500.0,-3333.0
+2019-09-03,Slovenia,Kosovo,5.0,0.0,UEFA Euro qualification,,,
+2019-09-03,Bosnia-Herzegovina,Malta,2.0,0.0,UEFA Euro qualification,-1429.0,1250.0,3000.0
+2019-09-03,Austria,North Macedonia,3.0,0.0,UEFA Euro qualification,-3333.0,3300.0,5800.0
+2019-10-02,North Macedonia,Kazakhstan,4.0,1.0,UEFA Euro qualification,190.0,237.0,170.0
+2019-10-04,Lithuania,Switzerland,0.0,3.0,UEFA Euro qualification,5900.0,2000.0,-2500.0
+2019-10-04,Hungary,Sweden,0.0,5.0,UEFA Euro qualification,2900.0,1400.0,-1250.0
+2019-10-04,Slovenia,Netherlands,2.0,4.0,UEFA Euro qualification,5400.0,1550.0,-2500.0
+2019-10-04,Latvia,Slovakia,1.0,2.0,UEFA Euro qualification,2300.0,725.0,-625.0
+2019-10-04,Belarus,Norway,1.0,7.0,UEFA Euro qualification,4900.0,2000.0,-2000.0
+2019-10-04,Malta,Italy,0.0,2.0,UEFA Euro qualification,6900.0,2500.0,-3333.0
+2019-10-04,Turkey,Estonia,0.0,0.0,UEFA Euro qualification,-625.0,720.0,2000.0
+2019-10-04,Albania,Portugal,0.0,1.0,UEFA Euro qualification,4900.0,1400.0,-2000.0
+2019-10-04,Spain,Azerbaijan,4.0,0.0,UEFA Euro qualification,-5000.0,2600.0,6600.0
+2019-10-04,Denmark,Bosnia-Herzegovina,2.0,0.0,UEFA Euro qualification,-2500.0,1900.0,6400.0
+2019-10-05,Germany,Ukraine,8.0,0.0,UEFA Euro qualification,-3333.0,2000.0,10000.0
+2019-10-05,North Macedonia,Serbia,0.0,6.0,UEFA Euro qualification,1200.0,700.0,-455.0
+2019-10-08,Sweden,Slovakia,7.0,0.0,UEFA Euro qualification,-3333.0,2200.0,8900.0
+2019-10-08,Netherlands,Russia,2.0,0.0,UEFA Euro qualification,-500.0,750.0,1600.0
+2019-10-08,Kazakhstan,France,0.0,3.0,UEFA Euro qualification,27400.0,3300.0,-3333.0
+2019-10-08,Italy,Bosnia-Herzegovina,2.0,0.0,UEFA Euro qualification,-1250.0,1825.0,5000.0
+2019-10-08,Faroe Islands,Norway,0.0,13.0,UEFA Euro qualification,24900.0,2500.0,-3333.0
+2019-10-08,Belarus,Wales,0.0,1.0,UEFA Euro qualification,680.0,385.0,-217.0
+2019-10-08,Georgia,Denmark,0.0,2.0,UEFA Euro qualification,14900.0,2500.0,-3333.0
+2019-10-08,Turkey,Slovenia,1.0,6.0,UEFA Euro qualification,440.0,328.0,130.0
+2019-10-08,Greece,Germany,0.0,5.0,UEFA Euro qualification,22400.0,3300.0,-3333.0
+2019-10-08,Switzerland,Croatia,2.0,0.0,UEFA Euro qualification,-1667.0,1600.0,4200.0
+2019-10-08,Latvia,Iceland,0.0,6.0,UEFA Euro qualification,5500.0,1900.0,-2500.0
+2019-10-08,Estonia,Kosovo,1.0,2.0,UEFA Euro qualification,296.0,280.0,162.0
+2019-10-08,Republic of Ireland,Ukraine,3.0,2.0,UEFA Euro qualification,-156.0,300.0,505.0
+2019-10-08,Serbia,Austria,0.0,1.0,UEFA Euro qualification,490.0,385.0,-161.0
+2019-10-08,Romania,Belgium,0.0,1.0,UEFA Euro qualification,1100.0,510.0,-256.0
+2019-10-08,Czech Republic,Spain,1.0,5.0,UEFA Euro qualification,800.0,490.0,-303.0
+2019-10-08,Finland,Albania,8.0,1.0,UEFA Euro qualification,-2000.0,1700.0,8400.0
+2019-11-06,Montenegro,Greece,0.0,4.0,UEFA Euro qualification,740.0,420.0,-256.0
+2019-11-07,Finland,Cyprus,4.0,0.0,UEFA Euro qualification,-3333.0,2500.0,11900.0
+2019-11-07,Azerbaijan,Czech Republic,0.0,4.0,UEFA Euro qualification,2400.0,1400.0,-1250.0
+2019-11-07,Malta,Israel,1.0,1.0,UEFA Euro qualification,2400.0,550.0,-244.0
+2019-11-08,Croatia,Belgium,1.0,4.0,UEFA Euro qualification,6400.0,1600.0,-1250.0
+2019-11-08,Italy,Georgia,6.0,0.0,UEFA Euro qualification,-3333.0,2500.0,8500.0
+2019-11-08,Romania,Lithuania,3.0,0.0,UEFA Euro qualification,-2500.0,1800.0,5400.0
+2019-11-08,Slovakia,Hungary,0.0,0.0,UEFA Euro qualification,138.0,265.0,198.0
+2019-11-08,Turkey,Netherlands,0.0,8.0,UEFA Euro qualification,5900.0,2200.0,-2500.0
+2019-11-08,Norway,Northern Ireland,6.0,0.0,UEFA Euro qualification,-3333.0,3000.0,7800.0
+2019-11-08,North Macedonia,Austria,0.0,3.0,UEFA Euro qualification,5800.0,1800.0,-2000.0
+2019-11-08,Albania,Scotland,0.0,5.0,UEFA Euro qualification,5000.0,1800.0,-1667.0
+2019-11-09,France,Serbia,6.0,0.0,UEFA Euro qualification,-2500.0,2000.0,6900.0
+2019-11-10,Moldova,Azerbaijan,3.0,1.0,UEFA Euro qualification,230.0,250.0,140.0
+2019-11-12,Poland,Spain,0.0,0.0,UEFA Euro qualification,650.0,435.0,-208.0
+2019-11-12,Netherlands,Slovenia,4.0,1.0,UEFA Euro qualification,-2000.0,1800.0,3900.0
+2019-11-12,Denmark,Georgia,14.0,0.0,UEFA Euro qualification,-5000.0,3000.0,15000.0
+2019-11-12,Israel,Bosnia-Herzegovina,1.0,3.0,UEFA Euro qualification,255.0,270.0,130.0
+2019-11-12,Italy,Malta,5.0,0.0,UEFA Euro qualification,-5000.0,2500.0,12500.0
+2019-11-12,Northern Ireland,Wales,0.0,0.0,UEFA Euro qualification,345.0,290.0,-112.0
+2019-11-12,Switzerland,Romania,6.0,0.0,UEFA Euro qualification,-500.0,640.0,1600.0
+2019-11-12,Portugal,Finland,1.0,1.0,UEFA Euro qualification,142.0,255.0,225.0
+2019-11-12,Greece,Republic of Ireland,1.0,1.0,UEFA Euro qualification,355.0,285.0,-125.0
+2019-11-12,Hungary,Latvia,4.0,0.0,UEFA Euro qualification,-1111.0,1200.0,3100.0
+2019-11-12,Austria,Kazakhstan,9.0,0.0,UEFA Euro qualification,-3333.0,2500.0,9700.0
+2019-11-12,Belgium,Lithuania,6.0,0.0,UEFA Euro qualification,-2500.0,2500.0,6900.0
+2020-03-05,Malta,Georgia,2.0,1.0,UEFA Euro qualification,-145.0,335.0,490.0
+2020-03-05,Republic of Ireland,Greece,1.0,0.0,UEFA Euro qualification,-227.0,380.0,650.0
+2020-03-05,Bosnia-Herzegovina,Israel,1.0,0.0,UEFA Euro qualification,-270.0,440.0,800.0
+2020-03-06,Serbia,North Macedonia,8.0,1.0,UEFA Euro qualification,-3333.0,2800.0,12500.0
+2020-03-06,Kosovo,Russia,0.0,5.0,UEFA Euro qualification,3300.0,950.0,-769.0
+2020-03-07,Poland,Moldova,5.0,0.0,UEFA Euro qualification,-3333.0,2200.0,9500.0
+2020-03-10,Kosovo,Slovenia,0.0,3.0,UEFA Euro qualification,4500.0,1200.0,-1667.0
+2020-03-10,Israel,Georgia,4.0,0.0,UEFA Euro qualification,-833.0,740.0,2800.0
+2020-03-10,Malta,Bosnia-Herzegovina,2.0,3.0,UEFA Euro qualification,1200.0,600.0,-417.0
+2020-03-11,Montenegro,Republic of Ireland,0.0,3.0,UEFA Euro qualification,5000.0,1200.0,-1667.0
+2020-03-11,Cyprus,Albania,0.0,2.0,UEFA Euro qualification,318.0,260.0,140.0
+2020-03-11,Azerbaijan,Poland,0.0,5.0,UEFA Euro qualification,9000.0,2200.0,-2500.0
+2020-09-17,Iceland,Latvia,9.0,0.0,UEFA Euro qualification,-3333.0,3300.0,7000.0
+2020-09-17,Bosnia-Herzegovina,Denmark,0.0,4.0,UEFA Euro qualification,9000.0,2200.0,-2500.0
+2020-09-17,Sweden,Hungary,8.0,0.0,UEFA Euro qualification,-3333.0,2500.0,5800.0
+2020-09-18,Belgium,Romania,6.0,1.0,UEFA Euro qualification,-1000.0,1100.0,2800.0
+2020-09-18,Slovenia,Turkey,3.0,1.0,UEFA Euro qualification,-1429.0,1400.0,4000.0
+2020-09-18,Serbia,France,0.0,2.0,UEFA Euro qualification,5000.0,2000.0,-1429.0
+2020-09-18,Russia,Netherlands,0.0,1.0,UEFA Euro qualification,1450.0,610.0,-417.0
+2020-09-18,Montenegro,Ukraine,1.0,3.0,UEFA Euro qualification,4000.0,1300.0,-1429.0
+2020-09-18,Kosovo,Estonia,2.0,0.0,UEFA Euro qualification,128.0,300.0,325.0
+2020-09-18,Croatia,Switzerland,1.0,1.0,UEFA Euro qualification,2000.0,750.0,-625.0
+2020-09-18,Faroe Islands,Northern Ireland,0.0,6.0,UEFA Euro qualification,6600.0,1100.0,-1000.0
+2020-09-18,Czech Republic,Poland,0.0,0.0,UEFA Euro qualification,159.0,245.0,171.0
+2020-09-19,Germany,Republic of Ireland,3.0,0.0,UEFA Euro qualification,-2500.0,1800.0,5800.0
+2020-09-19,Moldova,Spain,0.0,9.0,UEFA Euro qualification,8000.0,2800.0,-3333.0
+2020-09-22,Kazakhstan,Austria,0.0,5.0,UEFA Euro qualification,7000.0,2500.0,-2000.0
+2020-09-22,Norway,Wales,1.0,0.0,UEFA Euro qualification,-1111.0,1300.0,5000.0
+2020-09-22,Montenegro,Germany,0.0,3.0,UEFA Euro qualification,32400.0,2800.0,-3333.0
+2020-09-22,Ukraine,Greece,4.0,0.0,UEFA Euro qualification,-100.0,260.0,300.0
+2020-09-22,Malta,Denmark,0.0,8.0,UEFA Euro qualification,5500.0,3300.0,-3333.0
+2020-09-22,North Macedonia,France,0.0,7.0,UEFA Euro qualification,15000.0,3500.0,-10000.0
+2020-09-22,Estonia,Russia,0.0,3.0,UEFA Euro qualification,5900.0,2000.0,-2000.0
+2020-09-22,Romania,Croatia,4.0,1.0,UEFA Euro qualification,169.0,255.0,169.0
+2020-09-22,Faroe Islands,Belarus,0.0,2.0,UEFA Euro qualification,5000.0,1700.0,-1429.0
+2020-09-22,Poland,Czech Republic,0.0,2.0,UEFA Euro qualification,145.0,240.0,204.0
+2020-09-22,Bosnia-Herzegovina,Italy,0.0,5.0,UEFA Euro qualification,3500.0,1300.0,-1250.0
+2020-09-22,Iceland,Sweden,1.0,1.0,UEFA Euro qualification,630.0,370.0,-167.0
+2020-09-22,Latvia,Hungary,0.0,5.0,UEFA Euro qualification,2800.0,1200.0,-833.0
+2020-09-22,Switzerland,Belgium,2.0,1.0,UEFA Euro qualification,128.0,297.0,215.0
+2020-10-21,Denmark,Israel,4.0,0.0,UEFA Euro qualification,-1667.0,2500.0,9300.0
+2020-10-22,Sweden,Latvia,7.0,0.0,UEFA Euro qualification,-10000.0,5000.0,4000.0
+2020-10-22,Greece,Montenegro,1.0,0.0,UEFA Euro qualification,-625.0,740.0,2000.0
+2020-10-22,Wales,Faroe Islands,4.0,0.0,UEFA Euro qualification,-3333.0,3300.0,4500.0
+2020-10-23,Lithuania,Romania,0.0,4.0,UEFA Euro qualification,1800.0,716.0,-500.0
+2020-10-23,Poland,Azerbaijan,3.0,0.0,UEFA Euro qualification,-2000.0,2500.0,8000.0
+2020-10-23,Turkey,Kosovo,0.0,0.0,UEFA Euro qualification,-106.0,285.0,285.0
+2020-10-23,Cyprus,Portugal,0.0,3.0,UEFA Euro qualification,6600.0,2000.0,-2000.0
+2020-10-23,Russia,Slovenia,1.0,0.0,UEFA Euro qualification,-139.0,297.0,400.0
+2020-10-23,France,North Macedonia,11.0,0.0,UEFA Euro qualification,-5000.0,3300.0,5300.0
+2020-10-23,Scotland,Albania,3.0,0.0,UEFA Euro qualification,-1667.0,2500.0,5000.0
+2020-10-23,Ukraine,Republic of Ireland,1.0,0.0,UEFA Euro qualification,222.0,258.0,138.0
+2020-10-23,Hungary,Slovakia,1.0,2.0,UEFA Euro qualification,102.0,273.0,261.0
+2020-10-23,Netherlands,Estonia,7.0,0.0,UEFA Euro qualification,-5000.0,2800.0,5500.0
+2020-10-23,Spain,Czech Republic,4.0,0.0,UEFA Euro qualification,-556.0,740.0,1800.0
+2020-10-24,Serbia,Kazakhstan,4.0,1.0,UEFA Euro qualification,-1667.0,2500.0,10000.0
+2020-10-27,Belarus,Northern Ireland,0.0,1.0,UEFA Euro qualification,241.0,277.0,180.0
+2020-10-27,Kosovo,Netherlands,0.0,6.0,UEFA Euro qualification,6000.0,3000.0,-5000.0
+2020-10-27,Greece,Ukraine,0.0,4.0,UEFA Euro qualification,446.0,350.0,150.0
+2020-10-27,Wales,Norway,0.0,1.0,UEFA Euro qualification,1200.0,650.0,-357.0
+2020-10-27,Czech Republic,Azerbaijan,3.0,0.0,UEFA Euro qualification,-3333.0,2800.0,15000.0
+2020-10-27,Italy,Denmark,1.0,3.0,UEFA Euro qualification,234.0,240.0,131.0
+2020-10-27,Austria,France,0.0,0.0,UEFA Euro qualification,950.0,500.0,-278.0
+2020-10-27,Russia,Turkey,4.0,2.0,UEFA Euro qualification,-1667.0,1600.0,6000.0
+2020-10-27,Romania,Switzerland,0.0,2.0,UEFA Euro qualification,1400.0,690.0,-526.0
+2020-10-27,Georgia,Israel,1.0,2.0,UEFA Euro qualification,1100.0,520.0,-357.0
+2020-10-27,Portugal,Cyprus,1.0,0.0,UEFA Euro qualification,-2000.0,2800.0,12500.0
+2020-10-27,Finland,Scotland,1.0,0.0,UEFA Euro qualification,247.0,265.0,160.0
+2020-10-27,Moldova,Poland,0.0,3.0,UEFA Euro qualification,8300.0,2000.0,-2500.0
+2020-10-27,Sweden,Iceland,2.0,0.0,UEFA Euro qualification,-270.0,600.0,1200.0
+2020-10-27,Slovakia,Latvia,2.0,0.0,UEFA Euro qualification,-2000.0,1600.0,5000.0
+2020-10-27,Lithuania,Belgium,0.0,9.0,UEFA Euro qualification,5400.0,2500.0,-3333.0
+2020-11-26,Slovakia,Iceland,1.0,3.0,UEFA Euro qualification,900.0,427.0,-213.0
+2020-11-26,Georgia,Malta,0.0,4.0,UEFA Euro qualification,355.0,295.0,-115.0
+2020-11-27,Northern Ireland,Belarus,3.0,2.0,UEFA Euro qualification,-172.0,382.0,670.0
+2020-11-27,Portugal,Scotland,1.0,0.0,UEFA Euro qualification,236.0,259.0,131.0
+2020-11-27,Albania,Cyprus,4.0,0.0,UEFA Euro qualification,-250.0,375.0,900.0
+2020-11-27,Spain,Moldova,10.0,0.0,UEFA Euro qualification,-5000.0,2500.0,9300.0
+2020-11-27,Germany,Greece,6.0,0.0,UEFA Euro qualification,-10000.0,5000.0,10000.0
+2020-11-27,France,Austria,3.0,0.0,UEFA Euro qualification,-400.0,600.0,1800.0
+2020-11-27,Kazakhstan,North Macedonia,0.0,3.0,UEFA Euro qualification,174.0,388.0,157.0
+2020-11-27,Russia,Kosovo,3.0,0.0,UEFA Euro qualification,-1429.0,2500.0,10000.0
+2020-11-27,Estonia,Turkey,0.0,4.0,UEFA Euro qualification,540.0,297.0,-159.0
+2020-11-27,Croatia,Lithuania,1.0,0.0,UEFA Euro qualification,-667.0,1100.0,2800.0
+2020-12-01,Republic of Ireland,Germany,1.0,3.0,UEFA Euro qualification,3500.0,1100.0,-1000.0
+2020-12-01,Georgia,Bosnia-Herzegovina,0.0,3.0,UEFA Euro qualification,3000.0,950.0,-909.0
+2020-12-01,Slovakia,Sweden,0.0,6.0,UEFA Euro qualification,5500.0,2200.0,-1111.0
+2020-12-01,Czech Republic,Moldova,7.0,0.0,UEFA Euro qualification,-5000.0,3000.0,12500.0
+2020-12-01,France,Kazakhstan,12.0,0.0,UEFA Euro qualification,130.0,2300.0,4300.0
+2020-12-01,Austria,Serbia,1.0,0.0,UEFA Euro qualification,-345.0,490.0,1800.0
+2020-12-01,Wales,Belarus,3.0,0.0,UEFA Euro qualification,-417.0,600.0,1600.0
+2020-12-01,Slovenia,Estonia,2.0,0.0,UEFA Euro qualification,-1111.0,1400.0,6400.0
+2020-12-01,Belgium,Switzerland,4.0,0.0,UEFA Euro qualification,132.0,225.0,390.0
+2020-12-01,Scotland,Finland,0.0,1.0,UEFA Euro qualification,-147.0,320.0,500.0
+2020-12-01,Denmark,Italy,0.0,0.0,UEFA Euro qualification,109.0,276.0,232.0
+2020-12-01,Israel,Malta,0.0,2.0,UEFA Euro qualification,108.0,272.0,270.0
+2020-12-01,Northern Ireland,Faroe Islands,5.0,1.0,UEFA Euro qualification,-10000.0,2400.0,4200.0
+2020-12-01,Ukraine,Montenegro,2.0,1.0,UEFA Euro qualification,-1250.0,1600.0,8000.0
+2020-12-01,Turkey,Russia,1.0,2.0,UEFA Euro qualification,1475.0,716.0,-556.0
+2020-12-01,Netherlands,Kosovo,6.0,0.0,UEFA Euro qualification,-5000.0,3000.0,5300.0
+2020-12-01,Portugal,Albania,1.0,0.0,UEFA Euro qualification,-400.0,2200.0,25000.0
+2020-12-01,Hungary,Iceland,0.0,1.0,UEFA Euro qualification,5500.0,1600.0,-1667.0
+2021-02-18,Azerbaijan,Spain,0.0,13.0,UEFA Euro qualification,,,
+2021-02-19,Finland,Portugal,1.0,0.0,UEFA Euro qualification,137.0,199.0,308.0
+2021-02-19,Cyprus,Scotland,0.0,10.0,UEFA Euro qualification,8000.0,3300.0,-2500.0
+2021-02-23,Spain,Poland,3.0,0.0,UEFA Euro qualification,-667.0,900.0,2800.0
+2021-02-23,Estonia,Slovenia,0.0,9.0,UEFA Euro qualification,4000.0,1100.0,-1250.0
+2021-02-23,Croatia,Romania,0.0,1.0,UEFA Euro qualification,255.0,263.0,146.0
+2021-02-23,Scotland,Portugal,0.0,2.0,UEFA Euro qualification,-104.0,277.0,400.0
+2021-02-23,Cyprus,Finland,0.0,5.0,UEFA Euro qualification,9000.0,2500.0,-1429.0
+2021-02-23,Azerbaijan,Moldova,1.0,0.0,UEFA Euro qualification,121.0,275.0,213.0
+2021-02-24,Italy,Israel,12.0,0.0,UEFA Euro qualification,-2500.0,2500.0,15000.0
+2021-04-09,Ukraine,Northern Ireland,1.0,2.0,UEFA Euro qualification,-250.0,450.0,800.0
+2021-04-09,Portugal,Russia,0.0,1.0,UEFA Euro qualification,120.0,217.0,291.0
+2021-04-09,Czech Republic,Switzerland,1.0,1.0,UEFA Euro qualification,230.0,272.0,123.0
+2021-04-13,Northern Ireland,Ukraine,2.0,0.0,UEFA Euro qualification,,,
+2021-04-13,Russia,Portugal,0.0,0.0,UEFA Euro qualification,,,
+2021-04-13,Switzerland,Czech Republic,1.0,1.0,UEFA Euro qualification,,,
+2021-09-16,Albania,Kosovo,1.0,1.0,FIFA World Cup qualification,165.0,222.0,175.0
+2021-09-16,Faroe Islands,Spain,0.0,10.0,FIFA World Cup qualification,,,
+2021-09-16,Norway,Armenia,10.0,0.0,FIFA World Cup qualification,-10000.0,2500.0,3100.0
+2021-09-16,Denmark,Malta,7.0,0.0,FIFA World Cup qualification,-10000.0,3300.0,10900.0
+2021-09-16,Turkey,Portugal,1.0,1.0,FIFA World Cup qualification,1200.0,480.0,-345.0
+2021-09-17,Netherlands,Czech Republic,1.0,1.0,FIFA World Cup qualification,-2000.0,2000.0,5000.0
+2021-09-17,Bosnia-Herzegovina,Montenegro,2.0,3.0,FIFA World Cup qualification,-222.0,420.0,720.0
+2021-09-17,Latvia,Austria,1.0,8.0,FIFA World Cup qualification,20000.0,5000.0,-3333.0
+2021-09-17,Wales,Kazakhstan,6.0,0.0,FIFA World Cup qualification,-2000.0,1675.0,6900.0
+2021-09-17,Slovakia,Sweden,0.0,1.0,FIFA World Cup qualification,9400.0,4000.0,-3333.0
+2021-09-17,Northern Ireland,Luxembourg,4.0,0.0,FIFA World Cup qualification,,,
+2021-09-17,Belarus,Cyprus,4.0,1.0,FIFA World Cup qualification,-769.0,850.0,2500.0
+2021-09-17,Greece,France,0.0,10.0,FIFA World Cup qualification,7400.0,4000.0,-3333.0
+2021-09-17,Romania,Croatia,2.0,0.0,FIFA World Cup qualification,-161.0,305.0,480.0
+2021-09-17,Poland,Belgium,1.0,1.0,FIFA World Cup qualification,510.0,275.0,590.0
+2021-09-17,Italy,Moldova,3.0,0.0,FIFA World Cup qualification,-5000.0,5000.0,22700.0
+2021-09-17,Hungary,Scotland,0.0,2.0,FIFA World Cup qualification,595.0,400.0,-189.0
+2021-09-17,Switzerland,Lithuania,4.0,1.0,FIFA World Cup qualification,-3333.0,3000.0,19300.0
+2021-09-17,Estonia,Slovenia,0.0,4.0,FIFA World Cup qualification,6900.0,2500.0,-2500.0
+2021-09-17,England,North Macedonia,8.0,0.0,FIFA World Cup qualification,-5000.0,5000.0,22700.0
+2021-09-18,Germany,Bulgaria,7.0,0.0,FIFA World Cup qualification,-5000.0,2800.0,10000.0
+2021-09-19,Israel,Portugal,0.0,4.0,FIFA World Cup qualification,5664.0,1300.0,-1429.0
+2021-09-21,Greece,Kazakhstan,3.0,2.0,FIFA World Cup qualification,-556.0,650.0,1700.0
+2021-09-21,Luxembourg,England,0.0,10.0,FIFA World Cup qualification,7300.0,5000.0,-5000.0
+2021-09-21,Hungary,Spain,0.0,7.0,FIFA World Cup qualification,15000.0,3300.0,-3333.0
+2021-09-21,Belgium,Albania,7.0,0.0,FIFA World Cup qualification,-1667.0,3300.0,12800.0
+2021-09-21,Slovenia,France,2.0,3.0,FIFA World Cup qualification,5000.0,1500.0,-1667.0
+2021-09-21,Iceland,Netherlands,0.0,2.0,FIFA World Cup qualification,600.0,390.0,-204.0
+2021-09-21,Czech Republic,Cyprus,8.0,0.0,FIFA World Cup qualification,-3333.0,5000.0,10000.0
+2021-09-21,Northern Ireland,Latvia,4.0,0.0,FIFA World Cup qualification,-2000.0,2850.0,12500.0
+2021-09-21,Scotland,Faroe Islands,7.0,1.0,FIFA World Cup qualification,-3333.0,2500.0,5000.0
+2021-09-21,Finland,Slovakia,2.0,1.0,FIFA World Cup qualification,-179.0,340.0,550.0
+2021-09-21,Germany,Serbia,5.0,1.0,FIFA World Cup qualification,-3333.0,5500.0,20000.0
+2021-09-21,Armenia,Poland,0.0,1.0,FIFA World Cup qualification,8700.0,3500.0,-2500.0
+2021-09-21,Kosovo,Norway,0.0,3.0,FIFA World Cup qualification,6700.0,2200.0,-3333.0
+2021-09-21,Croatia,Italy,0.0,5.0,FIFA World Cup qualification,4000.0,1200.0,-1250.0
+2021-09-21,North Macedonia,Austria,0.0,6.0,FIFA World Cup qualification,10000.0,5000.0,-3333.0
+2021-09-21,Malta,Bosnia-Herzegovina,2.0,2.0,FIFA World Cup qualification,745.0,400.0,-192.0
+2021-09-21,Azerbaijan,Denmark,0.0,8.0,FIFA World Cup qualification,15000.0,5500.0,-2000.0
+2021-09-21,Moldova,Switzerland,0.0,6.0,FIFA World Cup qualification,10000.0,4000.0,-2000.0
+2021-09-21,Sweden,Georgia,4.0,0.0,FIFA World Cup qualification,-5000.0,2500.0,4400.0
+2021-09-21,Estonia,Wales,0.0,1.0,FIFA World Cup qualification,8900.0,2200.0,-2000.0
+2021-09-21,Romania,Lithuania,3.0,0.0,FIFA World Cup qualification,-1429.0,1200.0,3500.0
+2021-10-21,Denmark,Bosnia-Herzegovina,8.0,0.0,FIFA World Cup qualification,-3333.0,4000.0,12400.0
+2021-10-21,Republic of Ireland,Sweden,0.0,1.0,FIFA World Cup qualification,1400.0,550.0,-385.0
+2021-10-21,Poland,Norway,0.0,0.0,FIFA World Cup qualification,1000.0,465.0,-294.0
+2021-10-21,Montenegro,Azerbaijan,2.0,0.0,FIFA World Cup qualification,-182.0,380.0,650.0
+2021-10-21,Israel,Germany,0.0,1.0,FIFA World Cup qualification,12500.0,5000.0,-5000.0
+2021-10-21,Belgium,Kosovo,7.0,0.0,FIFA World Cup qualification,-2500.0,5000.0,20000.0
+2021-10-21,Georgia,Finland,0.0,3.0,FIFA World Cup qualification,20000.0,4000.0,-303.0
+2021-10-21,Ukraine,Faroe Islands,4.0,0.0,FIFA World Cup qualification,-5000.0,4300.0,12500.0
+2021-10-21,Latvia,North Macedonia,1.0,4.0,FIFA World Cup qualification,168.0,255.0,205.0
+2021-10-21,Portugal,Serbia,2.0,1.0,FIFA World Cup qualification,-286.0,475.0,1050.0
+2021-10-21,Turkey,Bulgaria,1.0,0.0,FIFA World Cup qualification,-222.0,580.0,1200.0
+2021-10-21,Albania,Armenia,5.0,0.0,FIFA World Cup qualification,-286.0,425.0,900.0
+2021-10-22,Switzerland,Romania,2.0,0.0,FIFA World Cup qualification,-714.0,850.0,2800.0
+2021-10-22,Cyprus,Netherlands,0.0,8.0,FIFA World Cup qualification,5700.0,3400.0,-5000.0
+2021-10-22,France,Estonia,11.0,0.0,FIFA World Cup qualification,-5000.0,4000.0,7900.0
+2021-10-22,Slovenia,Wales,1.0,1.0,FIFA World Cup qualification,110.0,275.0,295.0
+2021-10-22,Iceland,Czech Republic,4.0,0.0,FIFA World Cup qualification,107.0,280.0,300.0
+2021-10-22,Austria,Luxembourg,5.0,0.0,FIFA World Cup qualification,-3333.0,2200.0,6900.0
+2021-10-22,Kazakhstan,Greece,0.0,1.0,FIFA World Cup qualification,1100.0,535.0,-312.0
+2021-10-22,Italy,Croatia,3.0,0.0,FIFA World Cup qualification,-2000.0,2950.0,22200.0
+2021-10-22,Scotland,Hungary,2.0,1.0,FIFA World Cup qualification,-476.0,1200.0,3500.0
+2021-10-23,England,Northern Ireland,4.0,0.0,FIFA World Cup qualification,-137.0,2500.0,3900.0
+2021-10-26,Switzerland,Croatia,5.0,0.0,FIFA World Cup qualification,-1000.0,1175.0,4500.0
+2021-10-26,Montenegro,Denmark,1.0,5.0,FIFA World Cup qualification,10000.0,5000.0,-3333.0
+2021-10-26,Iceland,Cyprus,5.0,0.0,FIFA World Cup qualification,-3333.0,5000.0,20000.0
+2021-10-26,Wales,Estonia,4.0,0.0,FIFA World Cup qualification,-2000.0,3100.0,20500.0
+2021-10-26,Belarus,Netherlands,0.0,2.0,FIFA World Cup qualification,12400.0,4000.0,-3333.0
+2021-10-26,Poland,Albania,2.0,0.0,FIFA World Cup qualification,-1667.0,2000.0,9000.0
+2021-10-26,Latvia,England,0.0,10.0,FIFA World Cup qualification,15000.0,6600.0,-10000.0
+2021-10-26,Greece,Slovenia,1.0,4.0,FIFA World Cup qualification,850.0,530.0,-286.0
+2021-10-26,Norway,Belgium,4.0,0.0,FIFA World Cup qualification,-179.0,385.0,500.0
+2021-10-26,Serbia,Turkey,2.0,0.0,FIFA World Cup qualification,-167.0,375.0,550.0
+2021-10-26,Northern Ireland,Austria,2.0,2.0,FIFA World Cup qualification,1400.0,560.0,-286.0
+2021-10-26,Lithuania,Italy,0.0,5.0,FIFA World Cup qualification,8000.0,2000.0,-10000.0
+2021-10-26,Kazakhstan,France,0.0,5.0,FIFA World Cup qualification,7200.0,2600.0,-10000.0
+2021-10-26,Bulgaria,Portugal,0.0,5.0,FIFA World Cup qualification,5000.0,1500.0,-833.0
+2021-10-26,Finland,Republic of Ireland,1.0,2.0,FIFA World Cup qualification,-132.0,275.0,550.0
+2021-10-26,Germany,Israel,7.0,0.0,FIFA World Cup qualification,-10000.0,2500.0,10000.0
+2021-10-26,Armenia,Kosovo,0.0,1.0,FIFA World Cup qualification,580.0,420.0,-145.0
+2021-10-26,Azerbaijan,Malta,1.0,2.0,FIFA World Cup qualification,325.0,280.0,-103.0
+2021-10-26,Faroe Islands,Hungary,1.0,7.0,FIFA World Cup qualification,5000.0,1300.0,-1250.0
+2021-10-26,Ukraine,Spain,0.0,6.0,FIFA World Cup qualification,12400.0,4100.0,-3333.0
+2021-10-26,North Macedonia,Luxembourg,2.0,3.0,FIFA World Cup qualification,-179.0,810.0,2200.0
+2021-10-26,Slovakia,Georgia,2.0,0.0,FIFA World Cup qualification,-2500.0,3000.0,10000.0
+2021-11-25,Sweden,Finland,2.0,1.0,FIFA World Cup qualification,-455.0,620.0,1600.0
+2021-11-25,Kosovo,Poland,1.0,2.0,FIFA World Cup qualification,3400.0,1500.0,-909.0
+2021-11-25,Spain,Faroe Islands,12.0,0.0,FIFA World Cup qualification,,,
+2021-11-25,Albania,Norway,0.0,7.0,FIFA World Cup qualification,9900.0,5000.0,-5000.0
+2021-11-25,Portugal,Israel,4.0,0.0,FIFA World Cup qualification,-1667.0,1500.0,7000.0
+2021-11-25,Republic of Ireland,Slovakia,1.0,1.0,FIFA World Cup qualification,-154.0,300.0,525.0
+2021-11-25,Serbia,Bulgaria,3.0,0.0,FIFA World Cup qualification,-2000.0,3650.0,8000.0
+2021-11-25,North Macedonia,Northern Ireland,0.0,11.0,FIFA World Cup qualification,4000.0,1000.0,-833.0
+2021-11-25,Belgium,Armenia,19.0,0.0,FIFA World Cup qualification,-5000.0,3400.0,17400.0
+2021-11-25,Bosnia-Herzegovina,Denmark,0.0,3.0,FIFA World Cup qualification,8900.0,2900.0,-5000.0
+2021-11-26,Wales,Greece,5.0,0.0,FIFA World Cup qualification,-526.0,700.0,1800.0
+2021-11-26,Germany,Turkey,8.0,0.0,FIFA World Cup qualification,-5000.0,2900.0,19600.0
+2021-11-26,Croatia,Lithuania,0.0,0.0,FIFA World Cup qualification,-286.0,490.0,900.0
+2021-11-26,Romania,Moldova,3.0,0.0,FIFA World Cup qualification,-1250.0,1500.0,6000.0
+2021-11-26,Cyprus,Belarus,1.0,1.0,FIFA World Cup qualification,2500.0,860.0,-500.0
+2021-11-26,France,Kazakhstan,6.0,0.0,FIFA World Cup qualification,,,
+2021-11-26,Malta,Montenegro,0.0,2.0,FIFA World Cup qualification,235.0,282.0,120.0
+2021-11-26,Italy,Switzerland,1.0,2.0,FIFA World Cup qualification,-125.0,350.0,460.0
+2021-11-26,Slovenia,Estonia,6.0,0.0,FIFA World Cup qualification,-3333.0,5000.0,12500.0
+2021-11-26,Scotland,Ukraine,1.0,1.0,FIFA World Cup qualification,-278.0,580.0,1400.0
+2021-11-27,England,Austria,1.0,0.0,FIFA World Cup qualification,-500.0,620.0,1800.0
+2021-11-27,Czech Republic,Netherlands,2.0,2.0,FIFA World Cup qualification,1600.0,670.0,-455.0
+2021-11-29,Northern Ireland,North Macedonia,9.0,0.0,FIFA World Cup qualification,-10000.0,1900.0,2900.0
+2021-11-30,England,Latvia,20.0,0.0,FIFA World Cup qualification,-5000.0,4400.0,14900.0
+2021-11-30,Spain,Scotland,8.0,0.0,FIFA World Cup qualification,-1250.0,1650.0,5300.0
+2021-11-30,Luxembourg,Austria,0.0,8.0,FIFA World Cup qualification,15000.0,3000.0,-2500.0
+2021-11-30,Hungary,Ukraine,4.0,2.0,FIFA World Cup qualification,210.0,265.0,140.0
+2021-11-30,Portugal,Germany,1.0,3.0,FIFA World Cup qualification,2400.0,650.0,-500.0
+2021-11-30,Sweden,Slovakia,3.0,0.0,FIFA World Cup qualification,-1429.0,1700.0,5900.0
+2021-11-30,Republic of Ireland,Georgia,11.0,0.0,FIFA World Cup qualification,-1667.0,3350.0,9900.0
+2021-11-30,France,Wales,2.0,0.0,FIFA World Cup qualification,-909.0,1300.0,5000.0
+2021-11-30,Belgium,Poland,4.0,0.0,FIFA World Cup qualification,-143.0,350.0,500.0
+2021-11-30,Slovenia,Greece,0.0,0.0,FIFA World Cup qualification,-769.0,1100.0,3500.0
+2021-11-30,Bosnia-Herzegovina,Malta,1.0,0.0,FIFA World Cup qualification,-200.0,380.0,690.0
+2021-11-30,Bulgaria,Serbia,1.0,4.0,FIFA World Cup qualification,7700.0,1475.0,-625.0
+2021-11-30,Romania,Italy,0.0,5.0,FIFA World Cup qualification,1533.0,620.0,-417.0
+2021-11-30,Azerbaijan,Montenegro,1.0,0.0,FIFA World Cup qualification,790.0,380.0,-213.0
+2021-11-30,Lithuania,Switzerland,0.0,7.0,FIFA World Cup qualification,16000.0,3800.0,-5000.0
+2021-11-30,Armenia,Norway,0.0,10.0,FIFA World Cup qualification,4000.0,2300.0,-10000.0
+2021-11-30,Kosovo,Albania,1.0,3.0,FIFA World Cup qualification,155.0,230.0,225.0
+2021-11-30,Turkey,Israel,3.0,2.0,FIFA World Cup qualification,-139.0,320.0,600.0
+2021-11-30,Croatia,Moldova,4.0,0.0,FIFA World Cup qualification,-400.0,820.0,4000.0
+2021-11-30,Cyprus,Iceland,0.0,4.0,FIFA World Cup qualification,8900.0,2600.0,-2500.0
+2022-02-23,Turkey,Serbia,2.0,5.0,FIFA World Cup qualification,700.0,400.0,-182.0
+2022-04-07,Bulgaria,Turkey,0.0,2.0,FIFA World Cup qualification,800.0,400.0,-204.0
+2022-04-07,Poland,Armenia,12.0,0.0,FIFA World Cup qualification,-2500.0,2650.0,10100.0
+2022-04-07,Serbia,Israel,4.0,0.0,FIFA World Cup qualification,-1111.0,1200.0,4000.0
+2022-04-07,Belarus,Iceland,0.0,5.0,FIFA World Cup qualification,,,
+2022-04-07,Albania,Belgium,0.0,5.0,FIFA World Cup qualification,12500.0,2800.0,-2500.0
+2022-04-07,Bosnia-Herzegovina,Azerbaijan,1.0,0.0,FIFA World Cup qualification,-270.0,450.0,950.0
+2022-04-07,Norway,Kosovo,5.0,1.0,FIFA World Cup qualification,-5000.0,4400.0,7700.0
+2022-04-07,Georgia,Sweden,0.0,15.0,FIFA World Cup qualification,9900.0,4400.0,-1667.0
+2022-04-08,Slovakia,Finland,1.0,1.0,FIFA World Cup qualification,360.0,300.0,120.0
+2022-04-08,Wales,France,1.0,2.0,FIFA World Cup qualification,2000.0,840.0,-625.0
+2022-04-08,Netherlands,Cyprus,12.0,0.0,FIFA World Cup qualification,-5000.0,5900.0,10000.0
+2022-04-08,Austria,Northern Ireland,3.0,1.0,FIFA World Cup qualification,-588.0,800.0,1800.0
+2022-04-08,Italy,Lithuania,7.0,0.0,FIFA World Cup qualification,-3333.0,4900.0,25000.0
+2022-04-08,North Macedonia,England,0.0,10.0,FIFA World Cup qualification,17400.0,4900.0,-10000.0
+2022-04-08,Malta,Denmark,0.0,2.0,FIFA World Cup qualification,50000.0,6900.0,-3333.0
+2022-04-08,Moldova,Croatia,0.0,1.0,FIFA World Cup qualification,2200.0,860.0,-556.0
+2022-04-08,Kazakhstan,Slovenia,0.0,2.0,FIFA World Cup qualification,8000.0,1900.0,-2000.0
+2022-04-08,Estonia,Greece,1.0,3.0,FIFA World Cup qualification,2300.0,800.0,-625.0
+2022-04-08,Romania,Switzerland,1.0,1.0,FIFA World Cup qualification,3800.0,1000.0,-714.0
+2022-04-08,Hungary,Faroe Islands,7.0,0.0,FIFA World Cup qualification,,,
+2022-04-09,Luxembourg,Latvia,3.0,2.0,FIFA World Cup qualification,-105.0,280.0,320.0
+2022-04-09,Germany,Portugal,3.0,0.0,FIFA World Cup qualification,-1000.0,1100.0,4400.0
+2022-04-12,Sweden,Republic of Ireland,1.0,1.0,FIFA World Cup qualification,-588.0,800.0,2500.0
+2022-04-12,Portugal,Bulgaria,3.0,0.0,FIFA World Cup qualification,-2500.0,4900.0,20000.0
+2022-04-12,Scotland,Spain,0.0,2.0,FIFA World Cup qualification,20000.0,3300.0,-2000.0
+2022-04-12,Greece,Estonia,3.0,0.0,FIFA World Cup qualification,-909.0,1100.0,5500.0
+2022-04-12,Luxembourg,North Macedonia,2.0,1.0,FIFA World Cup qualification,300.0,280.0,160.0
+2022-04-12,Norway,Poland,2.0,1.0,FIFA World Cup qualification,-556.0,820.0,2500.0
+2022-04-12,Austria,Latvia,8.0,0.0,FIFA World Cup qualification,-5000.0,5000.0,7900.0
+2022-04-12,Northern Ireland,England,0.0,5.0,FIFA World Cup qualification,11000.0,3000.0,-2000.0
+2022-04-12,France,Slovenia,1.0,0.0,FIFA World Cup qualification,-1111.0,1400.0,4000.0
+2022-04-12,Israel,Turkey,1.0,0.0,FIFA World Cup qualification,410.0,280.0,-112.0
+2022-04-12,Armenia,Albania,0.0,4.0,FIFA World Cup qualification,12500.0,2800.0,-769.0
+2022-04-12,Kosovo,Belgium,1.0,6.0,FIFA World Cup qualification,12500.0,2800.0,-3333.0
+2022-04-12,Switzerland,Italy,0.0,1.0,FIFA World Cup qualification,220.0,250.0,150.0
+2022-04-12,Kazakhstan,Wales,0.0,3.0,FIFA World Cup qualification,7300.0,1800.0,-1667.0
+2022-04-12,Denmark,Azerbaijan,2.0,0.0,FIFA World Cup qualification,,,
+2022-04-12,Finland,Georgia,6.0,0.0,FIFA World Cup qualification,-5000.0,3900.0,9900.0
+2022-04-12,Montenegro,Bosnia-Herzegovina,0.0,2.0,FIFA World Cup qualification,205.0,260.0,190.0
+2022-04-12,Serbia,Germany,3.0,2.0,FIFA World Cup qualification,6400.0,1700.0,-1250.0
+2022-04-12,Croatia,Romania,0.0,1.0,FIFA World Cup qualification,290.0,265.0,110.0
+2022-04-12,Lithuania,Moldova,4.0,0.0,FIFA World Cup qualification,107.0,285.0,350.0
+2022-04-12,Czech Republic,Iceland,0.0,1.0,FIFA World Cup qualification,285.0,300.0,124.0
+2022-06-23,Bulgaria,Israel,0.0,2.0,FIFA World Cup qualification,485.0,360.0,-161.0
+2022-06-24,Latvia,Luxembourg,1.0,0.0,FIFA World Cup qualification,266.0,294.0,-100.0
+2022-06-24,Moldova,Romania,0.0,4.0,FIFA World Cup qualification,3500.0,1150.0,-1429.0
+2022-06-24,Belarus,Czech Republic,2.0,1.0,FIFA World Cup qualification,1450.0,600.0,-333.0
+2022-06-24,Ukraine,Scotland,0.0,4.0,FIFA World Cup qualification,550.0,350.0,-196.0
+2022-06-27,Georgia,Republic of Ireland,0.0,9.0,FIFA World Cup qualification,8400.0,8900.0,-5000.0
+2022-06-28,Netherlands,Belarus,3.0,0.0,FIFA World Cup qualification,-1000.0,4000.0,9900.0
+2022-06-28,Estonia,Kazakhstan,4.0,2.0,FIFA World Cup qualification,275.0,240.0,153.0
+2022-06-28,Moldova,Lithuania,1.0,1.0,FIFA World Cup qualification,530.0,310.0,-145.0
+2022-06-28,Ukraine,Hungary,2.0,0.0,FIFA World Cup qualification,220.0,275.0,170.0
